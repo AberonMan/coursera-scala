@@ -44,5 +44,6 @@ object Lists {
     if(list.isEmpty) element
     else maxListElement(maxOf(element,list.head), list.tail)
   }
+
   def maxOf(one:Int, other:Int):Int =  if(one > other) one else other
 }
